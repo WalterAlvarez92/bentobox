@@ -1,9 +1,8 @@
 #bento
 {
   border: 5px solid darkgrey;
-  border-radius: 25px;
-  height: 75em;
-  width: 100em;
+  height: 32.5em;
+  width: 50em;
   margin: 0 auto;
   display: flex;
   flex-flow: column wrap;
@@ -11,20 +10,28 @@
   align-items: center;
 }
 
+.box
+{
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 h1
 {
   color: white;
-  font-size: 3em;
+  font-size: 2em;
   font-family: monospace;
-  padding: 30px;
+
 }
 
 .box1
 {
   background: lightgray;
-  height: 20em;
-  width: 22em;
+  height: 10em;
+  width: 13em;
 
 
 }
@@ -32,8 +39,8 @@ h1
 .box2
 {
   background: lightblue;
-  height: 45em;
-  width: 22em;
+  height: 22.5em;
+  width: 13em;
 
 
 
@@ -43,35 +50,35 @@ h1
 .box3
 {
   background: red;
-  height: 20em;
-  width: 30em;
+  height: 10.5em;
+  width: 18em;
 
 }
 
 .box4
 {
   background: green;
-  height: 20em;
-  width: 30em;
+  height: 10.5em;
+  width: 18em;
 }
 
 .box5
 {
   background: pink;
-  height: 20em;
-  width: 30em;
+  height: 10.5em;
+  width: 18em;
 }
 
 .box6
 {
   background: orange;
-  height: 35em;
-  width: 30em;
+  height: 17.5em;
+  width: 18em;
 }
 
 .box7
 {
   background: black;
-  height: 30em;
-  width: 30em;
+  height: 15em;
+  width: 18em;
 }
